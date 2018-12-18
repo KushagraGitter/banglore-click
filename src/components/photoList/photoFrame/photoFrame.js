@@ -1,14 +1,14 @@
 import React from 'react';
-import { Card, CardImg, CardTitle, CardBody} from 'reactstrap';
+import { Card, CardImg, CardTitle, CardText, CardImgOverlay} from 'reactstrap';
 const PhotoFrame =(props)=>{
     const {src} = props
     return(
         <div>
-            <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                    <CardBody>
-                        <CardTitle>Card title</CardTitle>
-                    </CardBody>
+            <Card className="photoCategory">
+                <CardImg top width="100%" src={src}  alt="Card image cap" />
+                <CardImgOverlay>
+                    <CardTitle>Fashion</CardTitle>
+                </CardImgOverlay>
             </Card>
         </div>
     )

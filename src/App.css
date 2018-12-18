@@ -38,3 +38,14 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.photoCategory{
+  color: whitesmoke;
+}
+.photoSlide{
+  width: 100%;
+  height: 50px;
+}
+.card-img-overlay{
+  top:80%;
+}

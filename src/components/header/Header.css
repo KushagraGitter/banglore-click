@@ -6,5 +6,12 @@
     font-weight: 500;
 }
 .headerNav{
-    font-size: 30px;
+    padding-left: 38%;
+}
+.headerNav a{
+    font-size: 20px;
+    color: #c09436;
+}
+.headerLogo{
+    height: 150px;
 }
